@@ -106,16 +106,16 @@
 // })()
 
 // Recursive function
-function logRecursive(nr) {
-    console.log("started function:", nr);
-    if (nr > 0){
-        logRecursive(nr - 1);
-    } else {
-        console.log("done with recursion");
-    }
-    console.log("Ended function:", nr);
-}
+// function logRecursive(nr) {
+//     console.log("started function:", nr);
+//     if (nr > 0){
+//         logRecursive(nr - 1);
+//     } else {
+//         console.log("done with recursion");
+//     }
+//     console.log("Ended function:", nr);
+// }
 
-logRecursive(3);
+// logRecursive(3);
 
 
