@@ -46,12 +46,87 @@
 
 // Function on the class are called methods with function keyword.
 
-class Person {
-        constructor(firstName, lastName) {
-            this.firstName = firstName;
-            this.lastName = lastName;
-        }
-    }
- greet () {
-        console.log("Hi there I'm",  this.firstName);
-    }
+// class Person {
+//         constructor(firstName, lastName) {
+//             this.firstName = firstName;
+//             this.lastName = lastName;
+//         }
+//     }
+//  greet () {
+//         console.log("Hi there I'm",  this.firstName);
+//     }
+
+
+// functions on a class are called methods. when definig these methods,
+// we don't use the function keyword. we start directly with the name.
+
+//  class Person {
+//     constructor(firstName, lastName) {
+//         this.firstName = firstName;
+//         this.lastName = lastName;
+//     }
+//     greet() {
+//         console.log("Hi there I'm",  this.firstName);
+//     }
+// }
+//     let person = new Person("Ravi", "Sachin");
+//     person.greet(); 
+
+// constructor with two argeuemnets
+
+// class Ravi{
+//     constructor(firstName,lastName= "doe"){
+//         this.firstName=firstName;
+//         this.lastName=lastName;
+//         console.log(this.firstName,"and",this.lastName);
+//     }
+
+//     greet(){
+//         console.log("Sachin is also my bro am me is",this.firstName)
+//     }
+
+//     compliment(name,object){
+//         return "taht is a wonderful " + object + ","+ name;
+//     }
+
+// }
+
+// let obj = new Ravi("Ravi");
+// let undef=obj.greet();
+// let compliment =obj.compliment("taj","car");
+// console.log(compliment);
+// console.log(undef);
+
+// class Person {
+//         constructor(firstName, lastName) {
+//             this.firstName = firstName;
+//             this.lastName = lastName;
+//         }
+//     }
+//     let p = new Person("Ravi", "Sachin");
+//     console.log(p.firstName); 
+
+
+// class Person {
+//     #firstName; 
+//     #lastName;
+// constructor(firstName, lastName) {
+//         this.#firstName = firstName;
+//         this.#lastName = lastName;
+//     }
+//     get firstName() {
+//         return this.#firstName;
+//     }
+//     set firstName(name) {
+//         this.#firstName = name;
+//     }
+//     get lastName() {
+//         return this.#lastName;
+//     }
+//     set lastName(name) {
+//         this.#lastName = name;
+//     }
+// }
+// let person = new Person("Ravi", "Sachin");
+// person.firstName = "John"; 
+// console.log(person.firstName);
