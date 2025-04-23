@@ -130,3 +130,66 @@
 // let person = new Person("Ravi", "Sachin");
 // person.firstName = "John"; 
 // console.log(person.firstName);
+
+
+// Inheritance 
+// type of inheritance 
+// 1. single inheritance
+// 2. multilevel inheritance
+// 3. multiple inheritance
+// 4. hierarchical inheritance
+// 5. hybrid inheritance
+
+// Abstraction is the concept of hiding the complex implementation details.
+
+// class vehicle {
+//     constructor(color, curretSpeed, maxSpeed) {
+//         this.color = color;
+//         this.curretSpeed = curretSpeed;
+//         this.maxSpeed = maxSpeed;
+//     }
+//     move() {
+//         console.log("moving at", this.curretSpeed);
+//     }
+//     accelerate(amount) {
+//         this.curretSpeed += amount;
+//     }
+// }
+
+// class Motorcycle extends vehicle {
+//     constructor(color, curretSpeed, maxSpeed, fuel) {
+//         super(color, curretSpeed, maxSpeed);
+//         this.fuel = fuel;
+//     }
+//     dowheelie() {
+//         console.log("driving on one wheel");
+//     }
+// }
+
+// let motor = new Motorcycle("red", 50, 120, "petrol");
+// motor.move();
+// motor.accelerate(50);
+// motor.dowheelie();
+// console.log(motor.curretSpeed);
+// console.log(motor.color);
+// console.log(motor.maxSpeed);
+// console.log(motor.fuel);
+
+
+// Prototypes 
+
+//  class Person {
+//     constructor(firstName, lastName) {
+//         this.firstName = firstName;
+//         this.lastName = lastName;
+//     }
+//     greet() {
+//         console.log("Hi there I'm",  this.firstName);
+//     }
+//  }
+//  Person.prototype.introduce = function() {
+//     console.log("Hello, my name is", this.firstName);
+// }
+// let person = new Person("Ravi", "Sachin");
+// console.log(person.firstName);
+// person.introduce(); 
