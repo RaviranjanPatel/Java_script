@@ -1,0 +1,25 @@
+#container-box{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 480px;
+    border: 0cqmin;
+    gap: 10px;
+}
+
+.box{
+    width: 400px;
+    border: 0cap;
+}
+.box:nth-child(1) {
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;  
+}
+
+#head{
+    text-align: center;
+}
+
+#footer{
+}
